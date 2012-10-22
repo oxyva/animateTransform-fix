@@ -10,6 +10,13 @@ jQuery SVG combined with this IEfix plugin allows IE9 to
 animate the elements with animateTransform of an inline SVG 
 image.
 
+Warning
+=======
+
+This library has been created for a specific project it is far from complete
+in supporting the SVG animateTransform variations. Therefore this library is
+in a pre-alpha state.
+
 License
 =======
 
@@ -29,6 +36,4 @@ this program. If not, see <http://www.gnu.org/licenses/>.
 Installation
 ============
 
-You need:
-[*] http://keith-wood.name/svg.html "Keith Wood jQuery SVG plugin including the animation extension"
-[*] "Our IEfix plugin"
+You need the Keith Wood jQuery SVG plugin including the animation extension from http://keith-wood.name/svg.html and our plugin IEfix plugin.
