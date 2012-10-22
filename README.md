@@ -17,6 +17,33 @@ This library has been created for a specific project it is far from complete
 in supporting the SVG animateTransform variations. Therefore this library is
 in a pre-alpha state.
 
+Support
+=======
+
+We currently only support the translate type and track the following parameters:
+- dur
+- begin
+- to
+- from
+- type
+- repeatCount
+
+```xml
+  <animateTransform
+   id="animateTransform59"
+   fill="freeze"
+   dur="1s"
+   begin="1s"
+   to="0,1547.63782"
+   from="0,607.63782"
+   type="translate"
+   attributeType="XML"
+   attributeName="transform"
+   repeatCount="indefinite" 
+  />
+```
+
+
 License
 =======
 
