@@ -36,4 +36,5 @@ this program. If not, see <http://www.gnu.org/licenses/>.
 Installation
 ============
 
-You need the Keith Wood jQuery SVG plugin including the animation extension from http://keith-wood.name/svg.html and our plugin IEfix plugin.
+You need the Keith Wood jQuery SVG plugin including the animation extension 
+from http://keith-wood.name/svg.html and our IEfix plugin.
