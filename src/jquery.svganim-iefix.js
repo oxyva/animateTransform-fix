@@ -35,6 +35,8 @@
 			var repeat = root.get(0).getAttribute("repeatCount");
 				
 			var dur = root.attr("dur");
+			
+			var freeze = root.attr("freeze"); // freeze | remove
 				
 			var duration = timeStringToTime(dur) * 1000;		
 			var animString = type + "(" + to + ")";
