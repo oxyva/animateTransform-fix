@@ -22,7 +22,7 @@
 			return parseInt(s.substring(0, s.length -1));
 		}
 	
-		function animate(animateTransformElementObj, origin) {
+		function animate(animateTransformElementObj, origin, repeatCount) {
 				
 			var root = $(animateTransformElementObj);
 		
@@ -45,16 +45,40 @@
 			
 				if (typeof(origin) === "undefined") {
 					_origin = $(id).attr("transform");
-
 				} else {
-				
 					_origin = origin;
 					$(id).attr("transform", _origin);
 				}
 						
 				$(id).animate({ svgTransform: animString }, duration, function() { animate(root, _origin); });
-			} else {
+			
+			} else if (repeat == null) {
+
 				$(id).animate({ svgTransform: animString }, duration);
+
+			} else {
+				
+				var _repeatCount;
+				
+				if (typeof(repeatCount) === "undefined") {
+					_repeatCount = parseInt(repeat);	
+				} else {
+					_repeatCount = repeatCount - 1;
+				}
+
+				if (_repeatCount > 0) {
+				
+					if (typeof(origin) === "undefined") {
+						_origin = $(id).attr("transform");
+					} else {
+						_origin = origin;
+						$(id).attr("transform", _origin);
+					}
+				
+					$(id).animate({ svgTransform: animString }, duration, function() { animate(root, _origin, _repeatCount); });				
+				
+				}
+				
 			}
 		
 		}

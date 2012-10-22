@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="800"
+   height="600"
+   id="svg2998"
+   inkscape:version="0.48.1 r9760"
+   sodipodi:docname="drawing-plain.svg">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1087"
+     id="namedview26"
+     showgrid="false"
+     inkscape:zoom="1.3246467"
+     inkscape:cx="308.65489"
+     inkscape:cy="300"
+     inkscape:window-x="1680"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2998" />
+  <defs
+     id="defs3000" />
+  <metadata
+     id="metadata3003">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer3">
+    <g
+       transform="translate(0,-452.36218)"
+       id="nrepeat">
+      <animateTransform
+         id="animateTransform59"
+         fill="freeze"
+         dur="3s"
+         begin="1s"
+         from="0,-452.36218"
+         to="100,-452.36218"
+         type="translate"
+         attributeType="XML"
+         attributeName="transform"
+		 repeatCount="2" />
+      <rect
+         width="69.700523"
+         height="69.700523"
+         x="348.50262"
+         y="763.04224"
+         id="rect3022"
+         style="fill:#3465a4;fill-opacity:1;stroke:none" />
+      <rect
+         width="69.700523"
+         height="69.700523"
+         x="443.45697"
+         y="763.04224"
+         id="rect3024"
+         style="fill:#3465a4;fill-opacity:1;stroke:none" />
+    </g>
+  </g>
+  <text
+     sodipodi:linespacing="125%"
+     style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+     xml:space="preserve"
+     id="text3010"
+     y="115.41315"
+     x="53.538086"><tspan
+       id="tspan3012"
+       y="115.41315"
+       x="53.538086">no repeat</tspan></text>
+  <g
+     id="g3034"
+     transform="translate(0,-452.36218)">
+     <animateTransform
+        id="repeat"
+        fill="freeze"
+        dur="3s"
+        begin="1s"
+        from="0,-452.36218"
+        to="100,-452.36218"
+        type="translate"
+        attributeType="XML"
+        attributeName="transform"
+		repeatCount="indefinite" />
+    <rect
+       style="fill:#3465a4;fill-opacity:1;stroke:none"
+       id="rect3014"
+       y="643.04224"
+       x="348.50262"
+       height="69.700523"
+       width="69.700523" />
+    <rect
+       style="fill:#3465a4;fill-opacity:1;stroke:none"
+       id="rect3016"
+       y="643.04224"
+       x="443.45697"
+       height="69.700523"
+       width="69.700523" />
+  </g>
+  <text
+     sodipodi:linespacing="125%"
+     style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+     xml:space="preserve"
+     id="text3018"
+     y="235.41315"
+     x="53.538086"><tspan
+       id="tspan3020"
+       y="235.41315"
+       x="53.538086">repeat forever</tspan></text>
+  <text
+     sodipodi:linespacing="125%"
+     style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+     xml:space="preserve"
+     id="text3026"
+     y="355.41315"
+     x="53.538086"><tspan
+       id="tspan3028"
+       y="355.41315"
+       x="53.538086">2x repeat</tspan></text>
+  <g
+     id="layer2">
+    <g
+       transform="translate(0,-452.36218)"
+       id="g3030">
+      <animateTransform
+         id="norepeat"
+         fill="freeze"
+         dur="3s"
+         begin="1s"
+         from="0,-452.36218"
+         to="100,-452.36218"
+         type="translate"
+         attributeType="XML"
+         attributeName="transform" />
+      <rect
+         width="69.700523"
+         height="69.700523"
+         x="348.50262"
+         y="70.680069"
+         transform="translate(0,452.36218)"
+         id="rect3006"
+         style="fill:#3465a4;fill-opacity:1;stroke:none" />
+      <rect
+         width="69.700523"
+         height="69.700523"
+         x="443.45697"
+         y="523.04224"
+         id="rect3008"
+         style="fill:#3465a4;fill-opacity:1;stroke:none" />
+    </g>
+  </g>
+</svg>
